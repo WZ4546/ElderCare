@@ -12,7 +12,7 @@ export default function useAIResponse() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer sbp_90ebc8bdb14cf2d0608264a74457532b8cdfd667`,
+          'Authorization': `Bearer `,
         },
         body: JSON.stringify({ prompt: transcriptText }),
       });
