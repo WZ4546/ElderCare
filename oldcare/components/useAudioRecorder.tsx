@@ -116,7 +116,7 @@ export default function useAudioRecorder() {
   // 调用 Google Speech-to-Text API
   const transcribeSpeech = async (base64Audio: string) => {
     try {
-      const response = await fetch('https://speech.googleapis.com/v1/speech:recognize?key=AIzaSyBoZ1j6OBsSvVrg2Pcx08d6RT6HzmUA3ww', {
+      const response = await fetch('https://speech.googleapis.com/v1/speech:recognize?key=', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -31,7 +31,7 @@ export default function useAIResponse() {
   // 调用 Google Text-to-Speech API 将 AI 回复转换为语音并播放
   const playTextAsSpeech = async (text: string) => {
     try {
-      const response = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyBoZ1j6OBsSvVrg2Pcx08d6RT6HzmUA3ww', {
+      const response = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize?key=', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
